@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+   <context:component-scan base-package="com.autowire" />
+   
+   <bean id="employeeBean" class="com.autowire.by.name.demo.beans.EmployeeBean" autowire="byType">
+     <property name="employeeId" value="110"/>
+     <property name="employeeName" value="Vivek.B"/>
+   </bean>
+   
+   <!-- Here we have two beans has been registered for department class. But it won't throw any error since we are using the autowire  -->
+   <bean id="departmentBean" class="com.autowire.by.name.demo.beans.DepartmentBean">
+     <property name="deptId" value="20" />
+     <property name="departmentName" value="Credit Risk" />
+   </bean>
+   
+   <bean id="departmentBean1" class="com.autowire.by.name.demo.beans.DepartmentBean">
+     <property name="deptId" value="21" />
+     <property name="departmentName" value="Credit risk management" />
+   </bean>
+     
+</beans>
