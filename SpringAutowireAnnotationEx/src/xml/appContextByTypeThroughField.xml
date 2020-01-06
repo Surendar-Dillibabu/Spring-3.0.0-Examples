@@ -8,18 +8,18 @@
     
    <context:component-scan base-package="com.autowire" />
    
-   <bean id="employeeBean" class="com.autowire.by.name.demo.beans.EmployeeBean" autowire="byType">
+   <bean id="employeeBean" class="com.autowire.by.type.field.demo.beans.EmployeeBean">
      <property name="employeeId" value="110"/>
      <property name="employeeName" value="Vivek.B"/>
    </bean>
    
-   <!-- Here we have two beans has been registered for department class. But it won't throw any error since we are using the autowire  -->
-   <bean id="departmentBean" class="com.autowire.by.name.demo.beans.DepartmentBean">
+   <bean id="departmentBean" class="com.autowire.by.type.field.demo.beans.DepartmentBean">
      <property name="deptId" value="20" />
      <property name="departmentName" value="Credit Risk" />
    </bean>
    
-   <bean id="departmentBean1" class="com.autowire.by.name.demo.beans.DepartmentBean">
+   <!--  autowire-candidate="false" make the bean to be not registered in the container. Default is enabled with true -->
+   <bean id="departmentBean1" class="com.autowire.by.type.field.demo.beans.DepartmentBean" autowire-candidate="false">
      <property name="deptId" value="21" />
      <property name="departmentName" value="Credit risk management" />
    </bean>

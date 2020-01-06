@@ -4,9 +4,10 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="G:/Photon workspace/Libs/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-beans-3.0.0.RELEASE.jar" sourcepath="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-beans-3.0.0.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-context-3.0.0.RELEASE.jar" sourcepath="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-beans-3.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-context-3.0.0.RELEASE.jar" sourcepath="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-context-3.0.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-core-3.0.0.RELEASE.jar" sourcepath="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-context-3.0.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-asm-3.0.0.RELEASE.jar" sourcepath="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-aop-3.0.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-expression-3.0.0.RELEASE.jar" sourcepath="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-expression-3.0.0.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-web-3.0.0.RELEASE.jar" sourcepath="G:/Photon workspace/Libs/spring-jars/3.0.0/spring-web-3.0.0.RELEASE-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,4 +1,4 @@
-package com.autowire.by.name.demo.beans;
+package com.autowire.by.type.setter.demo.beans;
 
 public class DepartmentBean {
 
